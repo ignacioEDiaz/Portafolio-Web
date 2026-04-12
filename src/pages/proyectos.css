@@ -1,0 +1,142 @@
+.projects-section{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.projects{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.project-card{
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  height: 30rem;
+  width: 20rem;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.pcard-image{
+ 
+  background-size: cover;
+  background-position: center;
+  height:20rem ;
+  width: 100%;
+  border-top-left-radius:15px ;
+  border-top-right-radius: 15px;
+}
+#c1{
+  background-image: url("C:\Users\sox\Desktop\portfolio\portfolio\src\assets\gogsystem.jpg");
+}
+
+#c2{
+  background-image: url("C:\Users\sox\Desktop\portfolio\portfolio\src\assets\gymapp.jpg");
+}
+#c3{
+  background-image: url("C:\Users\sox\Desktop\portfolio\portfolio\src\assets\detailingweb.jpg");
+  
+}
+
+.project-card:hover{
+  border: 1px solid black;
+  transform: translateY(-10px);
+transition: border 1s ease, transform 0.5s ease;
+}
+.pcard-technologies{
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-size: 15px;
+  
+}
+.pcard-technologies p{
+   border-radius: 15px;
+  background-color: rgb(240, 240, 240);
+  padding: 1px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.pcard-info{
+  padding: 13px;
+}
+.pcard-info h2{
+  font-size: 22px;
+  font-weight: bold;
+}
+.pcard-text{
+  font-size: 15px;
+}
+.pmis{
+  margin: 3rem;
+}
+.palgunos{
+  margin: 2rem;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+
+  .projects-section {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  .projects {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    height: auto;
+  }
+
+  .project-card {
+    width: 90%;
+    height: auto;
+    text-align: left;
+  }
+
+  .pcard-image {
+    height: 180px;
+  }
+
+  .pcard-info h2 {
+    font-size: 18px;
+  }
+
+  .pcard-text {
+    font-size: 14px;
+  }
+
+  .pcard-technologies {
+    font-size: 13px;
+    gap: 3px;
+  }
+
+  .pmis {
+    margin: 1.5rem;
+    text-align: center;
+  }
+
+  .palgunos {
+    margin: 1rem;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .project-card:hover {
+    transform: none;
+    border: none;
+  }
+}
