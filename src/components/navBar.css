@@ -85,4 +85,6 @@ body{
     padding: 5px 8px;
     flex-shrink: 0; 
   }
+}html {
+  scroll-behavior: smooth;
 }

@@ -13,43 +13,69 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 5%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.aboutMe-photo:hover {
+    transform: scale(1.03) rotate(1deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
 .aboutMe-desc{
     text-align: left;
 }
 .contratar{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 2.5rem;
-width: 8rem;
-border-radius: 25px;
-background-color: white;
-font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .contratar:hover{
     background-color: black;
     color: aliceblue;
-    transition: 0.2 ease-in;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
+
+.contratar:active {
+    transform: translateY(0px) scale(0.95);
+}
+
 .descargar{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 2.5rem;
-width: 8rem;
-border-radius: 25px;
-background-color: black;
-color: aliceblue;
-font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 25px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.descargar:hover {
+    background-color: #333;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.descargar:active {
+    transform: translateY(0px) scale(0.95);
 }
 
 .size-6 {
   width: 20px;
   height: 20px;
   margin-right: 5px;
-
 }
 
 .buttons{
@@ -83,29 +109,41 @@ font-weight: bold;
     margin-top: 30px;
     background-color: #eeeeee;
     font-size: 2rem;
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 3px solid black; 
-  width: 0;
-  animation: typing 2s steps(20, end) forwards, blink 0.7s infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid black; 
+    width: 0;
+    animation: typing 2s steps(20, end) forwards, blink 0.7s infinite;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.typewriter:hover {
+    background-color: #222;
+    color: #eee;
+    border-right-color: #eee;
 }
 
 @keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 17ch; 
-  }
+  from { width: 0; }
+  to { width: 17ch; }
 }
-
 
 @keyframes blink {
-    
-  50% {
-    border-color: transparent;
-  }
+  50% { border-color: transparent; }
 }
+
+.size-8{
+    height: 3rem;
+    width: 3rem;
+    transition: transform 0.2s ease, filter 0.2s ease;
+    cursor: pointer;
+}
+
+.size-8:hover {
+    transform: scale(1.2) rotate(-8deg);
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+}
+
 @media (max-width: 768px) {
 
   .aboutMeContainer {
@@ -153,18 +191,17 @@ font-weight: bold;
     height: 16px;
   }
 
- 
   .contratar:hover {
     background-color: white;
     color: black;
+    transform: none;
+    box-shadow: none;
   }
 
   .descargar:hover {
     background-color: black;
     color: white;
+    transform: none;
+    box-shadow: none;
   }
-}
-.size-8{
-  height: 3rem;
-  width: 3rem;
 }
