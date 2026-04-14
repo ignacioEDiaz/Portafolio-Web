@@ -1,4 +1,5 @@
 :root {
+
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -34,6 +35,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   :root {
+    box-sizing: border-box;
     --text: #9ca3af;
     --text-h: #f3f4f6;
     --bg: #16171d;

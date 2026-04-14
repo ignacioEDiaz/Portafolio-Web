@@ -1,4 +1,5 @@
 .aboutMeContainer{
+  box-sizing: border-box;
     display: flex;
     height: 60vw;
     width: 100vh;
