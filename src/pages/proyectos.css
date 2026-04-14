@@ -38,14 +38,14 @@
   border-top-right-radius: 15px;
 }
 #c1{
-  background-image: url("C:\Users\sox\Desktop\portfolio\portfolio\src\assets\gogsystem.jpg");
+  background-image: url("\gogsystem.jpg");
 }
 
 #c2{
-  background-image: url("C:\Users\sox\Desktop\portfolio\portfolio\src\assets\gymapp.jpg");
+  background-image: url("\gymapp.jpg");
 }
 #c3{
-  background-image: url("C:\Users\sox\Desktop\portfolio\portfolio\src\assets\detailingweb.jpg");
+  background-image: url("/detailingweb.jpg");
   
 }
 

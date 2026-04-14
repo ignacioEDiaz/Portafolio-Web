@@ -9,7 +9,7 @@
     
 }
 .conocimientos-photo{
-    background-image: url("C:\Users\sox\Desktop\portfolio\portfolio\src\assets\lofi lluvia.jpg");
+    background-image: url("\lofi lluvia.jpg");
     height: 40rem;
     width: 30rem;
     background-position: center;
@@ -23,6 +23,7 @@
      transition:  0.7s ease;
 }
 .conocimientos-info{
+  color: black;
     flex-wrap: wrap;
         height: 40rem;
     width: 30rem;
@@ -134,7 +135,7 @@ h1{
     font-size: 24px;
   }
 
-  /* sacar hover en mobile */
+ 
   .conocimientos-photo:hover {
     background-size: cover;
   }

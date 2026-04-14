@@ -6,7 +6,7 @@
     align-items: center;
 }
 .aboutMe-photo{
-    background-image: url("C:\Users\sox\Desktop\portfolio\portfolio\src\assets\lofi narajix.png");
+      background-image: url("/lofi narajix.png");
     height: 25rem;
     width: 50rem;
     background-size: cover;
@@ -25,6 +25,8 @@
     text-align: left;
 }
 .contratar{
+ text-decoration: none;
+  color: #222;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +37,10 @@
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.a{
+  text-decoration: none;
 }
 
 .contratar:hover{
