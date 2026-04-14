@@ -38,11 +38,11 @@
   border-top-right-radius: 15px;
 }
 #c1{
-  background-image: url("\gogsystem.jpg");
+  background-image: url("/gogsystem.jpg");
 }
 
 #c2{
-  background-image: url("\gymapp.jpg");
+  background-image: url("/gymapp.jpg");
 }
 #c3{
   background-image: url("/detailingweb.jpg");
