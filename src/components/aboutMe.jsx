@@ -4,7 +4,7 @@ export default function AboutMe(){
     return(
         <div className="aboutMeContainer" id="inicio">
             <div className="aboutMe-desc">
-                 <h1>
+                 <h1 className='yoabout'>
     Hola, soy <span className="brillo">Ignacio</span>
   </h1>
               <h2 className="typewriter">

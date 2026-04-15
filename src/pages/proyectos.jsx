@@ -5,6 +5,7 @@ export default function Proyectos(){
   <h1 className="pmis">Mis Proyectos</h1>
   <p className="palgunos">Algunos de los proyectos en los que he trabajado</p>
     <div className="projects">
+      <a href ="https://e-commerce-gog-web.onrender.com/" className="links" target="BLANK_">
       <div className="project-card">
         <div className="pcard-image"id="c1"></div>
         <div className="pcard-info">
@@ -15,6 +16,8 @@ export default function Proyectos(){
           </div>
         </div>
       </div>
+        </a>
+      <a href ="https://sistema-fit-frontend.vercel.app/" className="links" target="BLANK_">
       <div className="project-card">
         <div className="pcard-image" id="c2"></div>
         <div className="pcard-info">
@@ -25,6 +28,8 @@ export default function Proyectos(){
           </div>
         </div>
       </div>
+      </a>
+      <a href ="https://snow-eta-eight.vercel.app/" className="links" target="BLANK_">
             <div className="project-card" >
         <div className="pcard-image" id="c3"></div>
         <div className="pcard-info">
@@ -35,6 +40,7 @@ export default function Proyectos(){
           </div>
         </div>
       </div>
+        </a>
     </div>
       
 </div>

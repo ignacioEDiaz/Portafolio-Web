@@ -113,7 +113,7 @@
 .typewriter {
     border-radius: 10px;
     padding: 10px;
-    margin-top: 30px;
+    
     background-color: #eeeeee;
     font-size: 2rem;
     overflow: hidden;
@@ -176,8 +176,8 @@
 
   .typewriter {
     font-size: 1.2rem;
-    padding: 6px;
-    margin-top: 15px;
+    
+    margin-top: 0px;
   }
 
   .buttons {
@@ -211,4 +211,15 @@
     transform: none;
     box-shadow: none;
   }
+}
+.yoabout{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.yoabout span{
+  margin-left: 5px;
 }
