@@ -1,4 +1,5 @@
-import CV from '../assets/CV_Ignacio_Diaz_hard.pdf';
+import CV from '../assets/CV_Ignacio_easyvard.pdf';
+
 import "./aboutMe.css"
 export default function AboutMe(){
     return(
